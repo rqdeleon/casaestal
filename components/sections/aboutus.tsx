@@ -6,7 +6,7 @@ export default function Services(){
     <section id="aboutus" className="container mx-auto px-6 py-16">
       <div className="text-center mb-12">
           <h2 className="text-4xl font-bold">Where hospitality meets your dreams</h2>
-          <p className="mt-4 text-lg">At Pousada, we believe in the power of exceptional experiences. With a passion for hospitality, we strive to create moments that linger in your heart long after your stay.</p>
+          <p className="mt-4 text-lg">At Casa Estal, we believe in the power of exceptional experiences. With a passion for hospitality, we strive to create moments that linger in your heart long after your stay.</p>
           <button className="transition ease-in-out delay-150 mt-6 bg-primary hover:bg-primary/80 px-6 py-3 rounded-md duration-300 text-secondary">Know More</button>
       </div>
       <div className="flex flex-col lg:flex-row lg:space-x-6">

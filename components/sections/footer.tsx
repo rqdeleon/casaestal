@@ -108,7 +108,7 @@ export default function Footer(){
                             <Input 
                               type='text'
                               alt='name'
-                              placeholder='what should we call you?'
+                              placeholder='name'
                               className='w-full p-2'
                               disabled={loading}
                             {...field} />
