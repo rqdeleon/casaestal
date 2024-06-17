@@ -90,7 +90,7 @@ export default function Footer(){
         <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-between z-10">
             <div className="lg:w-1/2 mb-8 lg:mb-0 z-10">
                 <h2 className="text-4xl font-bold text-white mb-4">Make your reservation today and create lasting memories</h2>
-                <p className="text-white/80" >From the moment you step foot into our hotel, our dedicated team will ensure that every detail of your stay is meticulously taken care of.</p>
+                <p className="text-white/80" >From the moment you step foot into our condo, our dedicated team will ensure that every detail of your stay is meticulously taken care of.</p>
             </div>
             <div className="-mb-16 lg:w-1/2 bg-white p-8 rounded-lg shadow-lg z-10">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Book your extraordinary stay today</h3>

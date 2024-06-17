@@ -10,12 +10,12 @@ export default function Services(){
           <button className="transition ease-in-out delay-150 mt-6 bg-primary hover:bg-primary/80 px-6 py-3 rounded-md duration-300 text-secondary">Know More</button>
       </div>
       <div className="flex flex-col lg:flex-row lg:space-x-6">
-        <div className="mt-8 lg:w-1/2 mb-6 md:mb-0 transition ease-in-out delay-200 hover:-translate-y-2 duration-300 bg-cover bg-center rounded-lg overflow-hidden p-28"
+        <div className="mt-8 lg:w-1/2 p-8 mb-6 md:mb-0 transition ease-in-out delay-200 hover:-translate-y-2 duration-300 bg-cover bg-center rounded-lg overflow-hidden md:p-28"
             style={{backgroundImage:'url(https://res.cloudinary.com/dh3h0lhyh/image/upload/v1718549846/casaestal/wjmjn5wrpos503ppvsfb.jpg)'}}
         >
-            <div className="overflow-hidden text-slate-800 relative text-wrap mx-auto bg-slate-100/70 p-16 before:border-t-2 before:absolute before:top-4 before:left-4 before:block before:border-l-2 before:border-slate-500 before:h-16 before:w-16
-            after:border-b-2 after:absolute after:bottom-4 after:right-4 after:block after:border-r-2 after:border-slate-500 after:h-16 after:w-16
-            ">
+            <div className="overflow-hidden text-xs bg-slate-100/40 text-slate-900 relative text-wrap p-8 md:mx-auto md:p-16 md:text-lg 
+            before:border-t-2 before:absolute before:top-4 before:left-4 before:block before:border-l-2 before:border-slate-500 before:h-16 before:w-16 after:border-b-2 after:absolute after:bottom-4 after:right-4 after:block after:border-r-2 after:border-slate-500 after:h-16 after:w-16">
+
               <MapPin className="mx-auto mb-2"/>
               <p className="">Air Residences, Makati City, Manila</p>
               <ul className="pt-2">
@@ -24,13 +24,13 @@ export default function Services(){
                 <li>🤩 walk by Makati&lsquos executive businesses</li>
               </ul>
             </div>
-          </div>
+        </div>
 
-          <div className="mt-8 lg:w-1/2 mb-6 lg:mb-0 transition ease-in-out delay-200 hover:-translate-y-2 duration-300 bg-cover bg-center rounded-lg overflow-hidden p-28"
+          <div className="mt-8 lg:w-1/2 mb-6 p-8 lg:mb-0 transition ease-in-out delay-200 hover:-translate-y-2 duration-300 bg-cover bg-center rounded-lg overflow-hidden md:p-28"
             style={{backgroundImage:'url(https://res.cloudinary.com/dh3h0lhyh/image/upload/v1718597736/casaestal/g4rryyrav3swwhnuwxho.jpg)'}}
           >
-            <div className="overflow-hidden text-slate-800 relative text-wrap mx-auto bg-slate-100/70 p-16 before:border-t-2 before:absolute before:top-4 before:left-4 before:block before:border-l-2 before:border-slate-500 before:h-16 before:w-16
-            after:border-b-2 after:absolute after:bottom-4 after:right-4 after:block after:border-r-2 after:border-slate-500 after:h-16 after:w-16">
+            <div className="overflow-hidden text-xs bg-slate-100/40 text-slate-900 relative text-wrap p-8 md:mx-auto md:p-16 md:text-lg 
+            before:border-t-2 before:absolute before:top-4 before:left-4 before:block before:border-l-2 before:border-slate-500 before:h-16 before:w-16 after:border-b-2 after:absolute after:bottom-4 after:right-4 after:block after:border-r-2 after:border-slate-500 after:h-16 after:w-16">
               <MapPin className="mx-auto mb-2"/>
               <p className="">Covent Garden, Sta Mesa, Manila</p>
               <ul>
