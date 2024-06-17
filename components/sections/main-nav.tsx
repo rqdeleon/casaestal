@@ -56,7 +56,7 @@ export default function MainNav(){
                   ))}
                 <li>
                   <a 
-                    href='https://www.airbnb.com/h/pousadagrande'
+                    href='https://www.airbnb.com/users/show/43976091'
                     target='__blank' 
                     className="bg-primary hover:bg-primary/80 text-primary-foreground w-full px-4 py-4 rounded-md text-nowrap"
                     >
@@ -91,7 +91,7 @@ export default function MainNav(){
               
               <div className='mr-11 flex items-center'>
                 <a 
-                  href='https://www.airbnb.com/h/pousadagrande'
+                  href='https://www.airbnb.com/users/show/43976091'
                   target='__blank' 
                   className="bg-primary hover:bg-primary/80 text-primary-foreground w-full px-4 py-4 rounded-md text-nowrap"
                   >
