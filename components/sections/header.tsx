@@ -79,8 +79,7 @@ export default function Header(){
     <header className="header-area">
         {/* Hero Section */}
         <MainNav />
-        <section className="bg-cover bg-center h-screen flex items-center justify-center overflow-hidden relative" style={{backgroundImage:'url(https://res.cloudinary.com/dh3h0lhyh/image/upload/v1718549593/casaestal/bzdmqfm6njgq2mzlufyr.jpg)'}}>
-
+        <section className="pt-20 bg-cover bg-center h-screen flex items-center justify-center overflow-hidden relative" style={{backgroundImage:'url(https://res.cloudinary.com/dh3h0lhyh/image/upload/v1718549593/casaestal/bzdmqfm6njgq2mzlufyr.jpg)'}}>
             <div className="z-10 text-center text-white px-6">
                 <h1 className="text-4xl md:text-6xl font-bold">Discover the art of luxury accommodation</h1>
                 <p className="mt-4 text-lg md:text-xl">From breathtaking views to exquisite furnishings, our accommodations redefine luxury and offer an experience beyond compare.</p>

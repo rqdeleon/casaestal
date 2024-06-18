@@ -8,6 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import { siteinfo } from "@/siteinfo";
 
 
 export default function Testimony(){
@@ -18,21 +19,24 @@ export default function Testimony(){
       name: "Ria",
       profile: "/images/testimonials/ria.webp",
       text: "Kimberly is a great host. Communication was great throughout. The unit is in a wonderful building close to the corner of Buendia Ave and Ayala Ave. The mall on the first and second floor have great restaurants as well as a convenient grocery store, convenience store and hardware store. It also had a salon and spa. And we loved the green space, pool and rec area on the 7th and 8th floor. We definitely hope to come back!",
-      job: "St. Louis, Missouri"
+      job: "St. Louis, Missouri",
+      link: siteinfo.airbnb 
     },
     {
       slideNo: 2,
       name: "Benjamin",
       profile: "/images/testimonials/benjamin.webp",
       text: "Staying at Kimberly's Airbnb at Air Residences was an absolute delight from start to finish. Perched on the 57th floor, the panoramic views of Makati were breathtaking, offering a serene escape from the bustling city below. Kimberly's attentiveness and responsiveness truly stood out; her thoughtful recommendations enriched my stay, guiding us to hidden gems and must-visit spots in the area. It was a memorable experience, and I can't wait to return. Highly recommended for anyone looking for a luxurious and convenient stay in Manila!",
-      job: "Houston, Texas"
+      job: "Houston, Texas",
+      link: siteinfo.airbnb 
     },
     {
       slideNo: 3,
       name: "Sophie",
       profile: "/images/testimonials/sophie.webp",
       text: "We loved the apartment! very luxurious, large, the view is very beautiful. the host was very nice and very proactive in his responses. we highly recommend it.",
-      job: "Montreal, Canada"
+      job: "Montreal, Canada",
+      link: siteinfo.airbnb 
     },
   ];
   
@@ -73,7 +77,7 @@ export default function Testimony(){
                               {index.name}
                             </h4>
                             <p className="text-xs text-body-color dark:text-dark-6">
-                              {index.job}
+                            <a href={index.link}> {index.job}</a>
                             </p>
                           </div>
                         </footer>
