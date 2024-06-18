@@ -253,8 +253,8 @@ export default function Footer(){
                     </div>
                     <div className="flex space-x-4 mt-4 md:mt-0">
                         <h4>follow us:</h4>
-                        <a href={siteinfo[0].fb} target='_blank' className="text-gray-600 hover:text-gray-900"><Facebook /></a>
-                        <a href={siteinfo[0].airbnb} className="text-gray-600 hover:text-gray-900"><MapPin /></a>
+                        <a href={siteinfo.fb} target='_blank' className="text-gray-600 hover:text-gray-900"><Facebook /></a>
+                        <a href={siteinfo.airbnb} className="text-gray-600 hover:text-gray-900"><MapPin /></a>
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row justify-between items-center z-10 mt-7 text-xs">
