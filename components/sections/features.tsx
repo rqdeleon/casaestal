@@ -52,7 +52,11 @@ export default function Features(){
         <p className="mb-12">Experience a stay like no other as you immerse yourself in our featured rooms, carefully crafted to provide the perfect blend of comfort and luxury.</p>
       </div>       
         <div className="">
-          <Carousel opts={{align:"start"}} className="w-full">
+          <Carousel opts={{align:"start"}} className="w-full relative mt-9">
+            <div className="absolute -top-8 right-10">
+              <CarouselPrevious className="-left-9"/>
+              <CarouselNext className="-right-9" />
+            </div>
             <CarouselContent>
               {featureData.map((data)=>(
                 <CarouselItem key={data.slideNo} className="md:basis-3/4">
