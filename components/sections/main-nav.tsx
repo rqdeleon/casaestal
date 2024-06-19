@@ -13,6 +13,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import { siteinfo } from '@/siteinfo'
 
 export default function MainNav(){
   const { setTheme } = useTheme()
@@ -33,7 +34,7 @@ export default function MainNav(){
         <div className="w-60 max-w-full px-4">
           <h2 className="text-lg font-bold hover:text-foreground/75">
             <Link href="/" className="block w-full py-5">
-                Casa Estal
+                {siteinfo.sitename}
             </Link>
           </h2>
         </div>
