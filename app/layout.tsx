@@ -5,12 +5,13 @@ import { ThemeProvider } from "@/components/ui/theme-provider";
 
 import WebChat from "@/hooks/3x";
 import { Toaster } from "@/components/ui/toaster";
+import { siteinfo } from "@/siteinfo";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Casa Estal Staycation | Luxury Condos in Makati City & Santa Mesa, Manila",
-  description: "Experience the ultimate urban retreat at Casa Estal Staycation. Our luxurious condos in Makati City and Santa Mesa, Manila, offer modern amenities, stylish interiors, and convenient access to vibrant city attractions. Perfect for both leisure and business travelers seeking comfort and sophistication.",
+  title: siteinfo.sitename,
+  description: siteinfo.description,
 };
 
 export default function RootLayout({
